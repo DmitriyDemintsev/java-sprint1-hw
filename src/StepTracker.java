@@ -58,7 +58,6 @@ class StepTracer {
             return;
         }
         MonthData monthData = monthToData[month - 1];
-        int sumSteps = monthData.findMaxSteps();
 
         monthData.printDaysAndStepsFromMonth();
         System.out.println("Всего в этом месяце вы прошли " + monthData.sumStepsFromMonth() + " шаг.");

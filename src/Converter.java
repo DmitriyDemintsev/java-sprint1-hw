@@ -1,17 +1,14 @@
 public class Converter {
 
-    static int convertToKm(int sumSteps) {
-        int passToKm = sumSteps * 75 / 100000;
-        return passToKm;
+    int convertToKm(int sumSteps) {
+        return sumSteps * 75 / 100000;
     }
 
     int convertStepsToKilocalories(int sumSteps) {
-        int caloriesSpent = sumSteps * 50 / 1000;
-        return caloriesSpent;
+        return sumSteps * 50 / 1000;
     }
 
     int averageStepsPerMonth (int sumSteps) {
-       int averageSteps = sumSteps / 30;
-       return averageSteps;
+       return sumSteps / 30;
     }
 }
